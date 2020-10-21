@@ -1,6 +1,6 @@
-# Music207 (Fall 2020)
+# Patch design in Max/MSP
 
-This repository contains the Max patches developed to illustrate patch-design for realtime electronics.
+This repository contains materials to illustrate patch-design in Max/MSP for realtime electronics.
 
 NB: Contact the author before using this material in your work.
 
