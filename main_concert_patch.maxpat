@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 716.0, 140.0, 1508.0, 1203.0 ],
+		"rect" : [ 1089.0, 118.0, 1508.0, 1203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -190,7 +190,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 1 ],
@@ -927,7 +926,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 593.90002400000003, 891.200011999999788, 118.0, 44.0 ],
+					"patching_rect" : [ 592.40002400000003, 894.200011999999788, 118.0, 44.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1123,8 +1122,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1078.0, 761.000000357627869, 414.0, 76.0 ],
-					"text" : ";\rmain_level 0;\rplaylist-reset bang;\rplaylist-folder Hilbert:/Users/Carmine/Elementi/Suoni/Campioni/instruments/;\r"
+					"patching_rect" : [ 1041.0, 785.299987999999985, 425.0, 62.0 ],
+					"text" : ";\rmain_level 0;\rplaylist-reset bang;\rplaylist-load Hilbert:/Users/Carmine/Projects/Media/Sounds/Samples/mixtures/"
 				}
 
 			}
@@ -1370,8 +1369,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-54::obj-7::obj-4" : [ "denoise[1]", "denoise", 0 ],
 			"obj-54::obj-7::obj-7" : [ "interp[1]", "interp", 0 ],
+			"obj-54::obj-7::obj-4" : [ "denoise[1]", "denoise", 0 ],
 			"parameterbanks" : 			{
 
 			}

@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1131.0, 562.0, 89.0, 22.0 ],
+					"text" : "s playlist-folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-9",
@@ -77,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 973.0, 240.026671999999991, 32.5, 21.0 ],
+					"patching_rect" : [ 950.5, 251.203062999999986, 32.5, 21.0 ],
 					"text" : "t b l"
 				}
 
@@ -105,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 973.0, 214.38966400000001, 69.0, 21.0 ],
+					"patching_rect" : [ 950.5, 225.566055000000006, 69.0, 21.0 ],
 					"text" : "prepend set"
 				}
 
@@ -117,6 +128,7 @@
 					"fontname" : "Futura Condensed ExtraBold",
 					"fontsize" : 14.0,
 					"id" : "obj-75",
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -124,9 +136,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1091.0, 342.389648000000022, 207.0, 58.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 21.973686000000001, 108.0, 326.026305999999977, 84.0 ],
 					"readonly" : 1,
-					"text" : "set:/",
+					"text" : "Hilbert:/Users/Carmine/Projects/Media/Sounds/Samples/voices/",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "path-scene"
 				}
@@ -224,20 +237,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1047.0, 179.170654000000013, 69.0, 21.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.172709, 0.800512, 0.520128, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -246,22 +245,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1047.0, 144.170654000000013, 89.0, 22.0 ],
-					"text" : "r playlist-folder"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 131.0, 89.0, 22.0 ],
-					"text" : "r playlist-folder"
+					"patching_rect" : [ 1047.0, 144.170654000000013, 79.0, 22.0 ],
+					"text" : "r playlist-load"
 				}
 
 			}
@@ -375,20 +360,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 632.0, 184.38966400000001, 85.0, 22.0 ],
 					"text" : "r playlist-clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.785021, 0.832024, 0.688452, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1127.0, 518.393798999999944, 91.0, 22.0 ],
-					"text" : "s playlist-folder"
 				}
 
 			}
@@ -690,27 +661,20 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 18.0,
 					"id" : "obj-50",
-					"items" : "<empty>",
+					"items" : [ "13-voix-tibet1.aif", ",", "ak_emily.wav", ",", "bambinuccio.wav", ",", "belledoette.wav", ",", "bigbang.wav", ",", "cage.wav", ",", "Choir.wav", ",", "Dado.wav", ",", "demo.wav", ",", "demo1.wav", ",", "demo2.wav", ",", "demo3.wav", ",", "Diner.wav", ",", "Gervasoni_voices2.wav", ",", "Gervasoni_voices2_mono.wav", ",", "god_vocal.wav", ",", "god_vocal_poly.wav", ",", "Molinera_mono.wav", ",", "Niels_ipad_recorded.wav", ",", "Plumb.wav", ",", "quintina.wav", ",", "Refrat.wav", ",", "rire.wav", ",", "shakespeare-enfant.wav", ",", "sopran1.wav", ",", "Spiral.wav", ",", "Summertime.wav", ",", "tenor1.wav", ",", "tenorMono.wav", ",", "TimeAgo.wav", ",", "unvisage-cut.wav", ",", "unvisage-short.wav", ",", "unvisage.wav", ",", "Volume.wav", ",", "Vox.wav", ",", "XavierShort2.5.orig.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 335.0, 314.389648000000022, 405.0, 29.0 ],
-					"prefix" : "set:/",
+					"prefix" : "Hilbert:/Users/Carmine/Projects/Media/Sounds/Samples/voices/",
 					"types" : [ "AIFF", "WAVE" ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -836,7 +800,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1017,13 +981,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -1045,7 +1002,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"order" : 1,
 					"source" : [ "obj-89", 0 ]
 				}
 
