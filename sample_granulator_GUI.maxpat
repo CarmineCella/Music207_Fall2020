@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-51",
@@ -541,11 +542,11 @@
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.800005316734314, 357.600005328655243, 192.0, 22.0 ],
-					"text" : "r #1-sample_granulator-pitch_ratio"
+					"patching_rect" : [ 356.800005316734314, 357.600005328655243, 206.0, 22.0 ],
+					"text" : "r++ #1-sample_granulator-pitch_ratio"
 				}
 
 			}
@@ -1014,6 +1015,29 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "sample_granulator.algo.maxpat",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sample_generator.maxpat",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "r++.maxpat",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.129411764705882, 0.941176470588235, 0.07843137254902, 1.0 ]
 	}
 
