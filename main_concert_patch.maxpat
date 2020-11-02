@@ -244,7 +244,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 1122.0, 386.0, 266.0, 368.0 ],
+									"patching_rect" : [ 1122.0, 386.0, 270.0, 442.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -966,31 +966,6 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"id" : "obj-6",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 18.999999463558197, 484.600001871585846, 169.0, 35.0 ],
-													"text" : ";\r1-spectral_freeze-freeze bang"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 56.800000846385956, 264.000003933906555, 67.0, 22.0 ],
-													"text" : "delay 6000"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-52",
@@ -1006,39 +981,14 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-5",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 55.0, 398.200000584125519, 169.0, 35.0 ],
-													"text" : ";\r1-spectral_freeze-freeze bang"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 106.0, 180.5, 67.0, 22.0 ],
-													"text" : "delay 3000"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-16",
-													"linecount" : 6,
+													"linecount" : 7,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 171.166687000000024, 275.666672000000005, 201.0, 89.0 ],
-													"text" : ";\r1-spectral_freeze-mute 0;\r1-spectral_freeze-denoise 2 0;\r1-spectral_freeze-interp_time 100 0;\r1-spectral_freeze-width 32 0;\r1-spectral_freeze-gain 130 5000"
+													"patching_rect" : [ 40.5, 300.666672000000005, 224.0, 102.0 ],
+													"text" : ";\r1-spectral_freeze-mute 0;\r1-spectral_freeze-denoise 10 0;\r1-spectral_freeze-interp_time 200 0;\r1-spectral_freeze-width 32 0;\r1-spectral_freeze-noise_gate 0.05 1000;\r1-spectral_freeze-gain 127 5000"
 												}
 
 											}
@@ -1117,13 +1067,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"source" : [ "obj-1", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-52", 0 ],
 													"source" : [ "obj-1", 2 ]
 												}
@@ -1133,29 +1076,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"source" : [ "obj-17", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"order" : 0,
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"order" : 1,
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -1240,7 +1160,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 686.833327999999938, 239.333405000000027, 471.0, 156.0 ],
-													"text" : ";\r2-sample_granulator-mute 0;\r2-sample_granulator-speed 0.3 0;\r2-sample_granulator-jitter_speed 0 0;\r2-sample_granulator-rand_pitch_ratio 0 0;\r2-sample_granulator-pitch_ratio 1 0;\r2-sample_granulator-rand_len 140 0;\r2-sample_granulator-base_len 150 0;\r2-sample_granulator-scale 0.4 0;\r2-sample_granulator-gain 100 3000;\r2-sample_granulator-load /Users/Carmine/Desktop/Music_207/samples/Brahms_4.wav"
+													"text" : ";\r2-sample_granulator-mute 0;\r2-sample_granulator-speed 0.3 0;\r2-sample_granulator-jitter_speed 0 0;\r2-sample_granulator-rand_pitch_ratio 0 0;\r2-sample_granulator-pitch_ratio 1 0;\r2-sample_granulator-rand_len 140 0;\r2-sample_granulator-base_len 150 0;\r2-sample_granulator-scale 0.4 0;\r2-sample_granulator-gain 120 3000;\r2-sample_granulator-load /Users/Carmine/Desktop/Music_207/samples/Brahms_4.wav"
 												}
 
 											}
@@ -1266,7 +1186,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 697.0, 56.333405000000027, 222.0, 156.0 ],
-													"text" : ";\r1-proto_granulator-mute 0;\r1-proto_granulator-rand_freq 10 0;\r1-proto_granulator-base_freq 220 0;\r1-proto_granulator-rand_len 100 0;\r1-proto_granulator-base_len 100 0;\r1-proto_granulator-harmon_ratio 1.06 0;\r1-proto_granulator-index 1.5 0;\r1-proto_granulator-scale 0.15 0;\r1-proto_granulator-gain 100 3000;\r"
+													"text" : ";\r1-proto_granulator-mute 0;\r1-proto_granulator-rand_freq 10 0;\r1-proto_granulator-base_freq 220 0;\r1-proto_granulator-rand_len 100 0;\r1-proto_granulator-base_len 100 0;\r1-proto_granulator-harmon_ratio 1.06 0;\r1-proto_granulator-index 1.5 0;\r1-proto_granulator-scale 0.15 0;\r1-proto_granulator-gain 120 3000;\r"
 												}
 
 											}
@@ -1931,47 +1851,59 @@
 			"parameterbanks" : 			{
 
 			}
+,
+			"parameter_overrides" : 			{
+				"obj-54::obj-7::obj-7" : 				{
+					"parameter_shortname" : "interp",
+					"parameter_steps" : 0
+				}
+,
+				"obj-54::obj-7::obj-4" : 				{
+					"parameter_shortname" : "denoise"
+				}
+
+			}
 
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "player.gui.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "r+.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "player.algorithm.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "proto_granulator.gui.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "proto_granulator.algo.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "proto_generator.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1984,84 +1916,84 @@
 			}
 , 			{
 				"name" : "sample_granulator.gui.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample_granulator.algo.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sample_generator.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xsynth.gui.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xsynth.algo.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "xsynth_generator.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spectral_freeze.gui.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spectral_freeze.algo.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stochastic_freeze.pfft.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "player.playlist.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "microphone.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchbay.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
+				"bootpath" : "~/Desktop/Music207_Fall2020",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
