@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1646.0, 131.0, 1481.0, 1177.0 ],
+		"rect" : [ 1391.0, 103.0, 1405.0, 1142.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -229,6 +229,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 1 ],
@@ -651,7 +652,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -1846,20 +1846,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-54::obj-7::obj-7" : [ "interp[1]", "interp", 0 ],
 			"obj-54::obj-7::obj-4" : [ "denoise[1]", "denoise", 0 ],
+			"obj-54::obj-7::obj-7" : [ "interp[1]", "interp", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-54::obj-7::obj-4" : 				{
+					"parameter_shortname" : "denoise"
+				}
+,
 				"obj-54::obj-7::obj-7" : 				{
 					"parameter_shortname" : "interp",
 					"parameter_steps" : 0
-				}
-,
-				"obj-54::obj-7::obj-4" : 				{
-					"parameter_shortname" : "denoise"
 				}
 
 			}
