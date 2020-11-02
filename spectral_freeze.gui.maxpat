@@ -312,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 509.166687000000024, 209.666672000000005, 208.0, 89.0 ],
-					"text" : ";\r#1-spectral_freeze-mute 1;\n#1-spectral_freeze-denoise 0 0;\r#1-spectral_freeze-interp_time 100 0;\r#1-spectral_freeze-width 8;\n#1-spectral_freeze-gain 0"
+					"text" : ";\r#1-spectral_freeze-mute 1;\n#1-spectral_freeze-denoise 0 0;\r#1-spectral_freeze-interp_time 100 0;\r#1-spectral_freeze-width 8 0;\n#1-spectral_freeze-gain 0 0"
 				}
 
 			}
@@ -378,12 +378,12 @@
 					"presentation_rect" : [ 135.5, 135.000015000000019, 116.666663999999997, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "interp[1]",
-							"parameter_mmax" : 5000.0,
 							"parameter_shortname" : "interp",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1
+							"parameter_linknames" : 1,
+							"parameter_longname" : "interp[1]",
+							"parameter_mmax" : 5000.0
 						}
 
 					}
@@ -417,10 +417,10 @@
 					"presentation_rect" : [ 16.833344, 135.000015000000019, 117.833327999999995, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "denoise[1]",
 							"parameter_shortname" : "denoise",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "denoise[1]"
 						}
 
 					}

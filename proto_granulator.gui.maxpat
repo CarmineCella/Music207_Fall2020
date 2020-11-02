@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1644.0, 562.0, 1647.0, 744.0 ],
+		"rect" : [ 1506.0, 477.0, 1647.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.00000125169754, 120.166668951511383, 131.0, 27.0 ],
+					"patching_rect" : [ 19.437899053096771, 160.689546048641205, 131.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 46.133817995372773, 61.286933999999974, 78.0, 27.0 ],
 					"text" : "MUTE"
@@ -84,12 +84,11 @@
 					"fontsize" : 28.0,
 					"id" : "obj-17",
 					"ignoreclick" : 1,
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.333334565162659, 497.0, 112.0, 102.0 ],
+					"patching_rect" : [ 89.248218417167664, 448.063835620880127, 275.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.333326995372772, 12.0, 332.666674256324768, 40.0 ],
 					"text" : "#1-proto_granulator"
@@ -248,7 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.499995529651642, 271.333339035511017, 155.0, 22.0 ],
+					"patching_rect" : [ 168.173198133707047, 281.464058309793472, 155.0, 22.0 ],
 					"text" : "r+ #1-proto_granulator-gain"
 				}
 
@@ -404,7 +403,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.999995529651642, 34.333334356546402, 186.0, 22.0 ],
+					"patching_rect" : [ 129.143785625696182, 34.333334356546402, 186.0, 22.0 ],
 					"text" : "r+ #1-proto_granulator-base_freq"
 				}
 
@@ -416,7 +415,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.333332806825638, 6.333333522081375, 184.0, 22.0 ],
+					"patching_rect" : [ 19.647057801485062, 6.00653612613678, 184.0, 22.0 ],
 					"text" : "r+ #1-proto_granulator-rand_freq"
 				}
 
@@ -629,7 +628,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -637,7 +636,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -721,35 +720,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "proto_granulator.algo.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "proto_generator.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "simpleFM~.maxpat",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "r+.maxpat",
-				"bootpath" : "~/Desktop/Music_207",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.003921568627451, 0.364705882352941, 0.886274509803922, 1.0 ]
 	}
 

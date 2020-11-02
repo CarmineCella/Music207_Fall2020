@@ -549,8 +549,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.475066999999999, 648.149230999999986, 124.0, 22.0 ],
-					"text" : "send~ #1-player-out1"
+					"patching_rect" : [ 30.475066999999999, 648.149230999999986, 126.0, 22.0 ],
+					"text" : "send~ #1-player-out-1"
 				}
 
 			}
