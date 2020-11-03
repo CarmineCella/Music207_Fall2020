@@ -229,7 +229,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 1 ],
@@ -652,6 +651,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -964,6 +964,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -975,7 +976,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 285.199990808963776, 433.689667230571786, 168.0, 102.0 ],
-													"text" : ";\r1-player-mute 0;\r1-player-speed 1 0;\r1-player-loop 1;\r1-player-gain 120 4000;\r1-player-file lachenmann.wav;\r"
+													"text" : ";\r1-player-mute 0;\r1-player-speed 1 0;\r1-player-loop 1;\r1-player-gain 127 4000;\r1-player-file lachenmann.wav;\r"
 												}
 
 											}
@@ -1140,6 +1141,18 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-4",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 529.0, 260.0, 150.0, 33.0 ],
+													"text" : "NB: samples are given with absolute paths!"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-26",
 													"linecount" : 9,
 													"maxclass" : "message",
@@ -1159,8 +1172,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 686.833327999999938, 239.333405000000027, 471.0, 156.0 ],
-													"text" : ";\r2-sample_granulator-mute 0;\r2-sample_granulator-speed 0.3 0;\r2-sample_granulator-jitter_speed 0 0;\r2-sample_granulator-rand_pitch_ratio 0 0;\r2-sample_granulator-pitch_ratio 1 0;\r2-sample_granulator-rand_len 140 0;\r2-sample_granulator-base_len 150 0;\r2-sample_granulator-scale 0.4 0;\r2-sample_granulator-gain 120 3000;\r2-sample_granulator-load /Users/Carmine/Desktop/Music_207/samples/Brahms_4.wav"
+													"patching_rect" : [ 686.833327999999938, 239.333405000000027, 517.0, 156.0 ],
+													"text" : ";\r2-sample_granulator-mute 0;\r2-sample_granulator-speed 0.3 0;\r2-sample_granulator-jitter_speed 0 0;\r2-sample_granulator-rand_pitch_ratio 0 0;\r2-sample_granulator-pitch_ratio 1 0;\r2-sample_granulator-rand_len 140 0;\r2-sample_granulator-base_len 150 0;\r2-sample_granulator-scale 0.4 0;\r2-sample_granulator-gain 120 3000;\r2-sample_granulator-load /Users/Carmine/Desktop/Music207_Fall2020/samples/Brahms_4.wav"
 												}
 
 											}
@@ -1172,8 +1185,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 672.833327999999938, 429.333405000000027, 485.0, 156.0 ],
-													"text" : ";\r1-sample_granulator-mute 0;\r1-sample_granulator-speed 0.8 0;\r1-sample_granulator-jitter_speed 0 0;\r1-sample_granulator-rand_pitch_ratio 0 0;\r1-sample_granulator-pitch_ratio 1 0;\r1-sample_granulator-rand_len 140 0;\r1-sample_granulator-base_len 150 0;\r1-sample_granulator-scale 0.4 0;\r1-sample_granulator-gain 100 3000;\r1-sample_granulator-load /Users/Carmine/Desktop/Music_207/samples/Summertime.wav"
+													"patching_rect" : [ 672.833327999999938, 429.333405000000027, 531.0, 156.0 ],
+													"text" : ";\r1-sample_granulator-mute 0;\r1-sample_granulator-speed 0.8 0;\r1-sample_granulator-jitter_speed 0 0;\r1-sample_granulator-rand_pitch_ratio 0 0;\r1-sample_granulator-pitch_ratio 1 0;\r1-sample_granulator-rand_len 140 0;\r1-sample_granulator-base_len 150 0;\r1-sample_granulator-scale 0.4 0;\r1-sample_granulator-gain 100 3000;\r1-sample_granulator-load /Users/Carmine/Desktop/Music207_Fall2020/samples/Summertime.wav"
 												}
 
 											}
@@ -1579,13 +1592,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1041.0, 785.299987999999985, 357.0, 62.0 ],
-					"text" : ";\rmain_level 0;\rplaylist-reset bang;\rplaylist-load Hilbert:/Users/Carmine/Desktop/Music_207/samples/"
+					"patching_rect" : [ 1041.0, 785.299987999999985, 336.0, 76.0 ],
+					"text" : ";\rmain_level 0;\rplaylist-reset bang;\rplaylist-load Hilbert:/Users/Carmine/Desktop/Music207_Fall2020/samples/"
 				}
 
 			}
@@ -1846,20 +1859,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-54::obj-7::obj-4" : [ "denoise[1]", "denoise", 0 ],
 			"obj-54::obj-7::obj-7" : [ "interp[1]", "interp", 0 ],
+			"obj-54::obj-7::obj-4" : [ "denoise[1]", "denoise", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-54::obj-7::obj-4" : 				{
-					"parameter_shortname" : "denoise"
-				}
-,
 				"obj-54::obj-7::obj-7" : 				{
 					"parameter_shortname" : "interp",
 					"parameter_steps" : 0
+				}
+,
+				"obj-54::obj-7::obj-4" : 				{
+					"parameter_shortname" : "denoise"
 				}
 
 			}
